@@ -1,0 +1,435 @@
+#+title: *Electric Vehicle Market in India*
+#+SUBTITLE: *Market Segmentation*
+#+AUTHOR: /Chaganti Venkatarami Reddy, Subesha Sasmal, Parth Sukla/
+#+OPTIONS: date:nil toc:nil num:nil
+#+LATEX_HEADER: \usepackage{draftwatermark}
+#+SETUPFILE: /home/reddy/Documents/GitHub/dotfiles/org/latex-standard-reddy.org
+#+LATEX_CLASS_OPTIONS: [a4paper, 11pt]
+
+#+BEGIN_EXPORT latex
+\SetWatermarkLightness{ 0.94 }
+\SetWatermarkText{\textsc{Feynn Labs}}
+% \SetWatermarkColor[gray]{0.5}
+% \SetWatermarkColor[rgb]{1,0,0}
+\SetWatermarkScale{ 0.67 }
+% \SetWatermarkFontSize{2cm}
+
+\let\oldquote\quote
+\let\endoldquote\endquote
+\renewenvironment{quote}[2][]
+  {\if\relax\detokenize{#1}\relax
+     \def\quoteauthor{#2}%
+   \else
+     \def\quoteauthor{#2~---~#1}%
+   \fi
+   \oldquote}
+  {\par\nobreak\smallskip\hfill(\quoteauthor)%
+   \endoldquote\addvspace{\bigskipamount}}
+
+#+END_EXPORT
+
+#+BEGIN_EXPORT latex
+\vspace{3cm}
+\begin{center}
+\begin{figure}[h!]
+\includegraphics[scale=0.6]{./images/Indian-Electric-Car-market.jpg}
+\vspace{2mm}
+\caption*{\hspace{12mm} Electric Vehicle Market analysis in India}
+\end{figure}
+\end{center}
+\vspace{10mm}
+\hline
+\vspace{10mm}
+\begin{quote}{Carlos Ghosn}
+Electric cars are not going to take the market by storm, but it's going to be a gradual improvement.
+\end{quote}
+
+\clearpage
+#+END_EXPORT
+
+@@latex:\clearpage@@
+
+* *Abstract*
+
+Market segmentation becomes a crucial tool for evolving transportation technology such as electric vehicles (EVs) in emerging markets to explore and implement for extensive adoption. EVs adoption is expected to grow phenomenally in near future as low emission and low operating cost vehicle, and thus, it drives a considerable amount of forthcoming academic research curiosity. The main aim of this study is to explore and identify distinct sets of potential buyer segments for EVs based on /psychographic, behavioral, and socio-economic/ characterization by employing an integrated research framework of /‘perceived benefits-attitude-intention’/. The study applied robust analytical procedures including cluster analysis, multiple discriminant analysis and Chi-square test to operationalize and validate segments from the data collected of 563 respondents using a cross-sectional online survey. The findings posit that the three distinct sets of young consumer groups have been identified and labelled as /‘Conservatives’, ‘Indifferents’, and ‘Enthusiasts’/ which are deemed to be buddying EV buyers The implications are recommended, which may offer some pertinent guidance for scholars and policymakers to encourage EVs adoption in the backdrop of emerging sustainable transport market.
+
+In this report we are going to analyse the data and solve the problem using *Fermi Estimation* by breaking down the problem.
+
+@@latex:\vspace{5mm}@@
+
+*KeyWords* : /Electric vehicles, Market segmentation, Cluster analysis, Attitude towards electric vehicles, Subjective norms, Adoption intention, Sustainable transportation./
+
+@@latex:\vspace{8mm}@@
+
+* *Data Collection*
+
+The data has been collected manually, and the sources used for this process are listed below :
+
+ + https://www.kaggle.com/datasets
+ + https://data.gov.in/
+ + https://www.data.gov/
+ + https://data.worldbank.org/
+ + https://datasetsearch.research.google.com/
+
+@@latex:\clearpage@@
+
+* Market Segmentation
+
+** Target Market:
+
+The target market of Electric Vehicle Market Segmentation can be categorized into Geographic, SocioDemographic, Behavioral, and Psychographic Segmentation.
+
+ *Behavioral Segmentation:* searches directly for similarities in behavior or reported behavior. \\
+    Example: prior experience with the product, amount spent on the purchase, etc.
+
+    @@latex:\vspace{10mm}@@
+
+#+ATTR_LATEX: :scale 0.6
+#+NAME: fig-1
+#+CAPTION: /Behavioral Segmentation/
+[[./images/Behavioral-Segmentation.png]]
+
+*Advantage:* uses the very behavior of interest is used as the basis of segment extraction.
+
+*Disadvantage:* not always readily available.
+
+    @@latex:\vspace{7mm}@@
+
+*Psychographic Segmentation:* grouped based on beliefs, interests, preferences, aspirations, or benefits sought when purchasing a product. Suitable for lifestyle segmentation. Involves many segmentation variables.
+
+*Advantage:* generally more reflective of the underlying reasons for
+differences in consumer behavior.
+
+*Disadvantage:* increased complexity of determining segment
+memberships for consumers.
+
+@@latex:\clearpage@@
+
+#+ATTR_LATEX: :scale 0.6
+#+NAME: fig-2
+#+CAPTION: /Psychographic Segmentation/
+[[./images/Psychographic-Segmentation.png]]
+
+    @@latex:\vspace{4mm}@@
+
+*Socio-Demographic  Segmentation:* includes age, gender, income and education. Useful in industries.
+
+    @@latex:\vspace{10mm}@@
+
+#+ATTR_LATEX: :scale 0.6
+#+NAME: fig-3
+#+CAPTION: /Behavioral Segmentation/
+[[./images/Demographic-Segmentation.png]]
+
+*Advantage:* segment membership can easily be determined for every customer.
+
+*Disadvantage:* if this criteria is not the cause for customers product preferences then it does not provide sufficient market insight for optimal segmentation decisions.
+
+@@latex:\clearpage@@
+
+*Segmenting for Electric Vehicle Market*
+
+The market segmentation approach aims at defining actionable, manageable, homogenous subgroups of individual customers to whom the marketers can target with a similar set of marketing strategies. In practice, there are two ways of segmenting the market-a-priori and post-hoc. An a-priori approach utilizes predefined characteristics such as age, gender, income, education, etc. to predefine the segments followed by profiling based on a host of measured variables /(behavioral, psychographic or benefit)/. In the post-hoc approach to segmentation on other hand, the segments are identified based on the relationship among the multiple measured variables. The commonality between both approaches lies in the fact that the measured variables determine the /‘segmentation theme’/. The present study utilizes an a-priori approach to segmentation so as to divide the potential EV customers into sub-groups.
+
+    @@latex:\vspace{3mm}@@
+
+#+ATTR_LATEX: :scale 0.60
+#+NAME: fig-4
+#+CAPTION: /Market Segmentation Electric Vehicles/
+[[./images/ms-ev.png]]
+
+It is argued that the blended approach of /psychographic/ and /socioeconomic attributes/ for market segmentation enables the formulation of sub-market strategies which in turn satisfy the specific tastes and preferences of the consumer groups. Straughan and Roberts presented a comparison between the usefulness of /psychographic, demographic, and economic/ characteristics based on consumer evaluation for eco-friendly products. They pinpointed the perceived superiority of the psychographic characteristics over the socio-demographic and economic ones in explaining the environmentally-conscious consumer behavior and thus, the study recommended the use of psychographic characteristics in profiling the consumer segments in the market for eco-friendly products. The present study adds perceived-benefit characteristics guided by blended psychographic and socio-economic aspects for segmenting the consumer market.
+
+* Implementation
+
+** Packages/Tools used:
+
+1. *Numpy:* To calculate various calculations related to arrays.
+2. *Pandas:* To read or load the datasets.
+3. *SKLearn:* We have used LabelEncoder() to encode our values.
+
+
+** Data-Preprocessing
+
+*Data Cleaning*
+
+ The data collected is compact and is partly used for visualization purposes and partly for clustering. Python libraries such as NumPy, Pandas, Scikit-Learn, and SciPy are used for the workflow, and the results obtained are ensured to be reproducible.
+
+ #+ATTR_LATEX: :width 470px :height 270px
+[[./images/1.png]]
+
+** EDA
+
+ We start the Exploratory Data Analysis with some data Analysis drawn from the data without Principal Component Analysis and with some Principal Component Analysis in the dataset obtained from the combination of all the data we have. PCA is a statistical process that converts the observations of correlated features into a set of linearly uncorrelated features with the help of orthogonal transformation. These new transformed features are called the Principal Components. The process helps in reducing dimensions of the data to make the process of classification/regression or any form of machine learning, cost-effective.
+
+ @@latex:\vspace{15mm}@@
+
+ */Comparision of cars in our data/*
+
+ #+ATTR_LATEX: :scale 0.6
+ [[./images/fastest.png]]
+
+#+ATTR_LATEX: :scale 0.6
+ [[./images/topspeed.png]]
+
+#+ATTR_LATEX: :scale 0.6
+[[./images/price.png]]
+
+@@latex:\clearpage@@
+
+*For Electric Vehicle Market one of the most important key is Charging:*
+
+#+ATTR_LATEX: :width 450px :height 450px
+ [[./images/rapid.png]]
+
+@@latex:\vspace{10mm}@@
+
+*Correlation Matrix:* A correlation matrix is simply a table that displays the  correlation. It is best used in variables that demonstrate a linear relationship between each other. Coefficients for  different variables. The  matrix depicts  the correlation between all the possible pairs of values  through  the heatmap in  the below figure. The relationship between two variables is usually   considered strong when their correlation coefficient value is larger  than 0.7.
+
+@@latex:\clearpage@@
+
+#+ATTR_LATEX: :width 470px :height 380px
+#+NAME: fig-5
+#+CAPTION: /Correlation Matrix for the dataset/
+[[./images/corr.png]]
+
+#+BEGIN_center
+#+ATTR_LaTeX: :height 230px :width 210px :center
+[[./images/plugtype.png]]
+#+ATTR_LaTeX: :height 200px :width 200px :center
+[[./images/segment.png]]
+#+END_center
+
+#+BEGIN_center
+#+ATTR_LaTeX: :height 200px :width 200px :center
+[[./images/seats.png]]
+#+ATTR_LaTeX: :height 200px :width 200px :center
+[[./images/bodystyle.png]]
+#+END_center
+
+ Now we can see that the requirements of what type of cars are most needed for customers and from the past 10 years there is a rapid growth of Electric vehicles usage in India
+
+ @@latex:\vspace{10mm}@@
+
+ #+ATTR_LATEX: :height 300px :width 500px
+ #+CAPTION: /Electric Cars sales in India/
+#+NAME: fig-6
+ [[./images/evsalescars.png]]
+
+ @@latex:\clearpage@@
+
+#+ATTR_LATEX: :height 350px :width 450px
+#+CAPTION: /Correlation matrix plot for loadings/
+#+NAME: fig-7
+ [[./images/loadings.png]]
+
+
+@@latex:\vspace{10mm}@@
+
+*Scree Plot:* is a common method for determining the number of PCs to be retained via graphical representation. It is a simple line segment plot that shows the eigenvalues for each individual PC. It shows the eigenvalues on the y-axis and the number of factors on the x-axis. It always displays a downward curve. Most scree plots look broadly similar in shape, starting high on the left, falling rather quickly, and then flattening out at some point. This is because the first component usually explains much of the variability, the next few components explain a moderate amount, and the latter components only explain a small fraction of the overall variability. The scree plot criterion looks for the “elbow” in the curve and selects all components just before the line flattens out. The proportion of variance plot: The selected PCs should be able to describe at least 80% of the variance.
+
+ @@latex:\clearpage@@
+
+ #+ATTR_LATEX: :height 300px :width 450px
+#+CAPTION: /Scree Plot for our Dataset/
+#+NAME: fig-8
+ [[./images/screeplot.png]]
+
+ @@latex:\vspace{15mm}@@
+
+** Extracting Segments
+
+*Dendrogram*
+
+ This technique is specific to the agglomerative hierarchical method of clustering. The agglomerative hierarchical method of clustering starts by considering each point as a separate cluster and starts joining points to clusters in a hierarchical fashion based on their distances. To get the optimal number of clusters for hierarchical clustering, we make use of a dendrogram which is a tree-like chart that shows the sequences of merges or splits of clusters. If two clusters are merged, the dendrogram will join them in a graph and the height of the join will be the distance between those clusters. As shown in Figure, we can chose the optimal number of clusters based on hierarchical structure of the dendrogram. As highlighted by other cluster validation metrics, four to five clusters can be considered for the agglomerative hierarchical as well.
+
+@@latex:\clearpage@@
+
+#+ATTR_LATEX: :height 300px :width 450px
+#+CAPTION: /Dendrogram Plot for our Dataset/
+#+NAME: fig-9
+ [[./images/dendrogram.png]]
+
+ @@latex:\vspace{15mm}@@
+
+*Elbow Method*
+
+ The Elbow method is a popular method for determining the optimal number of clusters. The method is based on calculating the Within-Cluster-Sum of Squared Errors (WSS) for a different number of clusters (k) and selecting the k for which change in WSS first starts to diminish. The idea behind the elbow method is that the explained variation changes rapidly for a small number of clusters and then it slows down leading to an elbow formation in the curve. The elbow point is the number of clusters we can use for our clustering algorithm.
+
+The KElbowVisualizer function fits the KMeans model for a range of clusters values between 2 to 8. As shown in Figure, the elbow point is achieved which is highlighted by the function itself. The function also informs us about how much time was needed to plot models for various numbers of clusters through the green line.
+
+@@latex:\clearpage@@
+
+#+ATTR_LATEX: :height 230px :width 450px
+ #+CAPTION: /Evaluating the cluters using Distortion/
+#+NAME: fig-10
+ [[./images/distortion.png]]
+
+@@latex:\vspace{28mm}@@
+
+#+ATTR_LATEX: :height 225px :width 450px
+#+CAPTION: /Evaluating the cluters using silhouette/
+#+NAME: fig-11
+ [[./images/silhouette.png]]
+
+@@latex:\clearpage@@
+
+#+ATTR_LATEX: :height 230px :width 450px
+ #+CAPTION: /Evaluating the cluters using calinski_harabasz/
+#+NAME: fig-12
+ [[./images/calinski_harabasz.png]]
+
+
+* Analysis and Approaches used for Segmentation
+
+** Clustering
+
+*Clustering* is one of the most common exploratory data analysis techniques used to get an intuition about the structure of the data. It can be defined as the task of identifying subgroups in the data such that data points in the same subgroup (cluster) are very similar while data points in different clusters are very different. In other words, we try to find homogeneous subgroups within the data such that data points in each cluster are as similar as possible according to a similarity measure such as euclidean-based distance or correlation-based distance. \\
+The decision of which similarity measure to use is application-specific. Clustering analysis can be done on the basis of features where we try to find subgroups of samples based on features or on the basis of samples where we try to find subgroups of features based on samples.
+
+** K-Means Algorithm
+
+*K Means algorithm* is an iterative algorithm that tries to partition the dataset into pre-defined distinct non-overlapping subgroups (clusters) where each data point belongs to *only one group*. It tries to make the intra-cluster data points as similar as possible while also keeping the clusters as different (far) as possible. It assigns data points to a cluster such that the sum of the squared distance between the data points and the cluster’s centroid (arithmetic mean of all the data points that belong to that cluster) is at the minimum. The less variation we have within clusters, the more homogeneous (similar) the data points are within the same cluster.
+
+The way k means algorithm works is as follows:
+
+ + Specify number of clusters K.
+ + Initialize centroids by first shuffling the dataset and then randomly selecting K data points for the centroids without replacement.
+ + Keep iterating until there is no change to the centroids. i.e assignment of data points to clusters isn’t changing.
+
+ The approach k-means follows to solve the problem is *expectation maximization*
+The E-step is assigning the data points to the closest cluster. The M-step is computing the centroid of each cluster. Below is a break down of how we can solve it mathematically,
+
+The objective function is:
+
+#+begin_export latex
+\begin{equation}
+{\Large{\boxed{$$J = \sum_{i=1} ^{m}\sum_{k=1} ^{K}w_{ik}||x^i - \mu_{k}||$$}}}
+\end{equation}
+
+And M-step is :
+
+{\Large{$\frac{\partial J}{\partial \mu_{k}} = 2 \sum_{i=1} ^{m}w_{ik}(x^i - \mu_{k}) = 0$}
+
+$$\Rightarrow \mu_{k}= \frac{\sum_{i=1} ^{m} w_{ik} x^i}{\sum_{i=1} ^{m} w_{ik}}$$}}
+
+#+end_export
+
+
+*Applications*
+
+ K means algorithm is very popular and used in a variety of applications such as market segmentation, document clustering, image segmentation and image compression, etc. The goal usually when we undergo a cluster analysis is either:
+
+1. Get a meaningful intuition of the structure of the data we’re dealing with.
+2. Cluster-then-predict where different models will be built for different subgroups if we believe there is a wide variation in the behaviors of different subgroups.
+
+   @@latex:\clearpage@@
+
+The *k-means clustering algorithm* performs the following tasks:
+
+    + Specify number of clusters K
+    + Initialize centroids by first shuffling the dataset and then randomly selecting K data points for the centroids without replacement.
+    + Compute the sum of the squared distance between data points and all centroids.
+    + Assign each data point to the closest cluster (centroid).
+    + Compute the centroids for the clusters by taking the average of the all data points that belong to each cluster.
+    + Keep iterating until there is no change to the centroids. i.e assignment of data points to clusters isn’t changing.
+
+    According to the Elbow method, here we take K=4 clusters to train KMeans model. The derived clusters are shown in the following figure
+
+#+ATTR_LATEX: :height 80px :width 400px
+ [[./images/kmeans.png]]
+
+#+ATTR_LATEX: :height 310px :width 470px
+ [[./images/kmeansalgo.png]]
+
+   @@latex:\clearpage@@
+
+   *Prediction of Prices most used cars*
+
+   Linear regression is a machine learning algorithm based on supervised learning. It performs a regression task. Regression models targets prediction value based on independent variables. It is mostly used for finding out the relationship between variables and forecasting. Here we use a linear regression model to predict the prices of different Electric cars in different companies. X contains the independent variables and y is the dependent Prices that is to be predicted. We train our model with a splitting of data into a 4:6 ratio, i.e. 40% of the data is used to train the model.
+
+    *LinearRegression().fit(X_train,y_train)* command is used to fit the data set into model. The values of intercept, coefficient, and cumulative distribution function (CDF) are described in the figure.
+
+#+ATTR_LATEX: :height 400px :width 440px
+ [[./images/pred.png]]
+
+   @@latex:\clearpage@@
+
+After completion of training the model process, we test the remaining 60% of data on the model. The obtained results are checked using a scatter plot between predicted values and the original test data set for the dependent variable and acquired similar to a straight line as shown in the figure and the density function is also normally distributed.
+
+#+ATTR_LATEX: :height 400px :width 440px
+ [[./images/density.png]]
+
+The metrics of the algorithm, Mean absolute error, Mean squared error and mean square root error are described in the below figure:
+
+#+ATTR_LATEX: :height 240px :width 440px
+ [[./images/metrics.png]]
+
+** Profiling and Describing the Segments
+
+ Sorting the Top Speeds and Maximum Range in accordance to the Price with head () we can view the Pie Chart.
+
+ *Pie Chart:*
+
+#+ATTR_LATEX: :width 300px :height 300px
+ [[./images/pie-top.png]]
+
+@@latex:\clearpage@@
+
+#+ATTR_LATEX: :width 300px :height 300px
+ [[./images/pie-range.png]]
+
+#+ATTR_LATEX: :width 300px :height 300px
+ [[./images/top-max.png]]
+
+
+** Target Segments:
+
+So from the analysis we can see that the optimum targeted segment should be belonging to the following categories:
+
+*Behavioral:* Mostly from our analysis there are cars with 5 seats.
+
+*Demographic:*
+ + /Top Speed & Range/ : With a large area of market the cost is dependent on Top speeds and Maximum range of cars.
+ + /Efficiency/ : Mostly the segments are with most efficiency.
+
+*Psychographic:*
+ + /Price/ : From the above analysis, the price range is between 16,00,000 to 1,80,00,000.
+
+Finally, our target segment should contain cars with most *Efficiency*, contains *Top Speed* and price between *16 to 180 lakhs* with mostly with *5 seats*.
+
+@@latex:\vspace{5mm}@@
+
+** Customizing the Marketing Mix
+
+@@latex:\vspace{5mm}@@
+
+[[./images/marketing-mix.png]]
+
+@@latex:\vspace{10mm}@@
+
+The marketing mix refers to the set of actions, or tactics, that a company uses to promote its brand or product in the market. The 4Ps make up a typical marketing mix -Price, Product, Promotion and Place.
+
+ + *Price:* refers to the value that is put for a product. It depends on segment targeted, ability of the companies to pay, ability of customers to pay supply - demand and a host of other direct and indirect factors.
+ + *Product:* refers to the product actually being sold – In this case, the service. The product must deliver a minimum level of performance; otherwise even the best work on the other elements of the marketing mix won't do any good.
+ + *Place:* refers to the point of sale. In every industry, catching the eye of the consumer and making it easy for her to buy it is the main aim of a good distribution or 'place' strategy. Retailers pay a premium for the right location. In fact, the mantra of a successful retail business is /'location, location, location’/.
+ + *Promotion:* this refers to all the activities undertaken to make the product or service known to the user and trade. This can include advertising, word of mouth, press reports, incentives, commissions and awards to the trade. It can also include /consumer schemes, direct marketing, contests and prizes/.
+
+All the elements of the marketing mix influence each other. They make up the business plan for a company and handle it right, and can give it great success. The marketing mix needs a lot of understanding, market research and consultation with several people, from users to trade to manufacturing and several others.
+
+    #+begin_export latex
+\begin{thebibliography}{9}
+\bibitem{texbook}
+ Deepak Jaiswal,Arun Kumar Deshmukh(2022) \emph{Who will adopt electric vehicles? Segmenting and exemplifying potential buyer heterogeneity and forthcoming research}, Journal of Retailing and Consumer Services .
+
+\bibitem{MSA}
+Dolnicar, S., Grün Bettina, &amp; Leisch, F. (2019). \emph{Market segmentation analysis understanding it, doing it and making it useful}. Springer Nature.
+
+\bibitem{MS}
+McDonald, M., &amp; Dunbar, I. (2003). /emph{Market segmentation}. Butterworth-Heinemann.
+\end{thebibliography}
+
+    \vspace{40mm}
+  {\hspace{2.5mm} \huge{ Github : \href{https://github.com/Chaganti-Reddy/EVMarket-India}{Chaganti Reddy/ EVMarket-India}}}
+
+    #+end_export
