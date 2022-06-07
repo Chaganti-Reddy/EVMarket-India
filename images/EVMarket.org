@@ -1,6 +1,6 @@
 #+title: *Electric Vehicle Market in India*
 #+SUBTITLE: *Market Segmentation*
-#+AUTHOR: /Chaganti Venkatarami Reddy, Subesha Sasmal, Parth Sukla/
+#+AUTHOR: /Chaganti Venkatarami Reddy, Subesha Sasmal, Parth Shukla/
 #+OPTIONS: date:nil toc:nil num:nil
 #+LATEX_HEADER: \usepackage{draftwatermark}
 #+SETUPFILE: /home/reddy/Documents/GitHub/dotfiles/org/latex-standard-reddy.org
