@@ -129,7 +129,7 @@ Feel free to mail me for any doubts/query
 
 ## :raising_hand: Citation
 
-You are allowed to cite any part of the code or our dataset. You can use it in your Research Work or Project. Remember to provide credit to the Maintainer Chaganti Reddy by mentioning a link to this repository and her GitHub Profile.
+You are allowed to cite any part of the code or our dataset. You can use it in your Research Work or Project. Remember to provide credit to the Maintainer Chaganti Reddy by mentioning a link to this repository and his GitHub Profile.
 
 Follow this format:
 
